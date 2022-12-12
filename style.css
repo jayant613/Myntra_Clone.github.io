@@ -58,4 +58,11 @@ nav ul li {
 
 .itemImg {
     width: 9.8vw;
+    margin: auto;
+}
+
+footer {
+    padding: 23px;
+    text-align: center;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
 }
