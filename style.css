@@ -17,12 +17,21 @@ header {
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
+.rightBox {
+    display: flex;
+    margin: 12px;
+}
+
 .left img {
     width: 32px;
     height: 23px;
 }
 
 .container {
+    padding: 0 10vw;
+}
+
+.containerHeader {
     padding: 0 10vw;
 }
 
@@ -65,4 +74,43 @@ footer {
     padding: 23px;
     text-align: center;
     box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+}
+
+.tall {
+    min-height: 40vh;
+}
+
+@media (max-width: 1550px) {
+
+    nav ul li {
+        list-style: none;
+        padding: 0 4px;
+        font-size: 10px;
+    }
+
+    .containerHeader {
+        padding: 0 2vw;
+    }
+
+    header {
+        height: 122px;
+    }
+
+    .search {
+        width: 72vw;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rightBox {
+        display: flex;
+        margin: 12px;
+    }
+
+    .right {
+        display: flex;
+    }
 }
