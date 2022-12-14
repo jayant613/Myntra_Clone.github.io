@@ -70,6 +70,10 @@ nav ul li {
     margin-top: 6px;
 }
 
+.bigImg {
+    width: 13.1vw;
+}
+
 footer {
     padding: 23px;
     text-align: center;
